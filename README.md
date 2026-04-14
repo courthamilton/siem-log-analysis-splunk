@@ -20,32 +20,32 @@ This project demonstrates security monitoring and log analysis using Splunk SIEM
 ### Raw Log Search
 Initial search to confirm data ingestion and view raw log events.
 
-![Raw Logs](01-raw-log-search.png)
+![Raw Logs](screenshots/01-raw-log-search.png)
 
 ---
 
 ### Top Client IP Analysis
 Identified the most active client IP addresses interacting with the server.
 
-![Top IP Search](02-top-client-ip-search.png)
+![Top IP Search](screenshots/02-top-client-ip-search.png)
 
-![Top IP Chart](03-top-client-ip-chart.png)
+![Top IP Chart](screenshots/03-top-client-ip-chart.png)
 
 ---
 
 ### HTTP Status Code Analysis
 Analyzed HTTP response codes to understand normal vs abnormal server activity.
 
-![HTTP Status Search](04-http-status-search.png)
+![HTTP Status Search](screenshots/04-http-status-search.png)
 
-![HTTP Status Chart](05-http-status-chart.png)
+![HTTP Status Chart](screenshots/05-http-status-chart.png)
 
 ---
 
 ### 404 Error Investigation
 Identified IP addresses generating repeated 404 errors, which may indicate scanning or reconnaissance behavior.
 
-![404 Errors](06-404-errors-by-ip-search.png)
+![404 Errors](screenshots/06-404-errors-by-ip-search.png)
 
 ---
 
@@ -53,7 +53,7 @@ Identified IP addresses generating repeated 404 errors, which may indicate scann
 
 A dashboard was created to visualize key security metrics and support monitoring.
 
-![Dashboard](07-security-dashboard.png)
+![Dashboard](screenshots/07-security-dashboard.png)
 
 ---
 
